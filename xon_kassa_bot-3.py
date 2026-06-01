@@ -6,7 +6,9 @@ from datetime import datetime
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 
 # ===================== SOZLAMALAR =====================
-TOKEN = "8667542060:AAGaZZ6XgpU32dNhISEEKENUwxMg30c6ihk"
+import os
+
+TOKEN = os.getenv("8667542060:AAGaZZ6XgpU32dNhISEEKENUwxMg30c6ihk")
 ADMIN_ID = 8941268998
 KARTA_RAQAM = "9860256601576083"
 MIN_SUMMA = 5000
